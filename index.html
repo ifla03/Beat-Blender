@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Playlist Recommendation</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="webname">
+      <a href="Homepage.html"><h1 class="site-name">Beat Blender</h1></a>
+    </div>
+  </header>
+
+    <div class="container">
+      
+      <h1 style="margin-top: 40px; margin-bottom: 20px;">Music Playlist Recommendation</h1>
+      <div class="form">
+        <label for="mood">Select your mood:</label>
+        <select id="mood">
+          <option value="happy">Happy</option>
+          <option value="relaxed">Relaxed</option>
+          <option value="energetic">Energetic</option>
+        </select>
+        
+        <label for="genre">Select your preferred genre:</label>
+        <select id="genre">
+          <option value="pop">Pop</option>
+          <option value="rock">Rock</option>
+        </select>
+        <button onclick="getRecommendations()">Get Recommendations</button>
+        
+      </div>
+      <br>
+      <div id="playlist" class="playlist"></div>
+      <br>
+      
+      
+      
+    </div>
+    
+    
+    
+    <footer class="footer">
+      <a href="about.html" style="margin-right: 10px;"> Our Team</a> 
+      <a href="feedback.html"> Feedback</a>
+      <p>&copy; 2023 Beat Blender. All rights reserved.</p>
+      
+      
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
